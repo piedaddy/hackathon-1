@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Menu</title>
-    <link rel="stylesheet" href="/css/menu.css">
     <link rel="stylesheet" href="/css/main.css">
     <link
     href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap"
@@ -28,12 +27,12 @@
 
 
 <body>
-    <div class="menucontainer">
+    <h1 id="menutitle">Menu</h1>
 
-    <h1>Menu</h1>
-    
+    <div class="menucontainer">
+        
         <div class="menucategory menucategory--espressocoffee">
-            <h2>Espresso coffee</h2>
+            <h2 class="firsth2">Espresso coffee</h2>
             <div class="menuitem">
                 <p class="item">Espresso</p>
                 <p class="price">3.8</p>
@@ -189,7 +188,7 @@
             </div>
         </div>
 
-        <h2>Non-alcoholic beverages</h2>
+        <h2 class="sectiontitle">Non-alcoholic beverages</h2>
 
         <div class="menucategory menucategory--lemonades">
             <h2 class="firsth2">Lemonades</h2 class="firsth2">
@@ -227,7 +226,7 @@
             </div>
         </div>
 
-        <h2>Alcoholic beverages</h2>
+        <h2 class="sectiontitle">Alcoholic beverages</h2>
 
         <div class="menucategory menucategory--beer">
             <h2 class="firsth2">Beer</h2 class="firsth2">
@@ -323,6 +322,14 @@
             </div>
         </div>
     </div>
+
+    <div class="menu__image">
+        <img
+          src="/img/espresso-machine-detail.jpg"
+          class="menu__image"
+          alt="Hipster Coffee counter"
+        />
+      </div>
 </body>
 
 
