@@ -1,0 +1,24 @@
+$header-color: #F8F9FA;
+$background-color: white;
+$footer-color: #343A40;
+$link-color: #0099FF;
+$footer-text-color: #CED4DA;
+
+@import "coffee";
+@import "footer";
+@import "header";
+@import "index";
+@import "menu";
+@import "ourstory";
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+body {
+    margin:0;
+    padding:0;
+}
+
+
