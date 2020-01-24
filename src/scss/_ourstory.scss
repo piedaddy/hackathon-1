@@ -1,10 +1,10 @@
-body {
+.story {
     display:flex;
     flex-direction: column;
     line-height: 2em;
     align-items: center;
+    align-content: center;
     width:100vw;
-    height:100vh;
 
 }
 
@@ -14,21 +14,30 @@ body {
     justify-items: center;
     margin: 0em 2em;
     // padding: 2em 10em;
+    
     @media (min-width: 426px) {
         margin: 0em 1em;
+        width:70vw;
             }
 
 
 
     img {
-        width: 80vw;
+        width: 70vw;
         padding-top: 2em;
+        padding-bottom: 1em;
+
+
     }
 
     p {
-        font-size: 1.5em;
+        font-size: 1.1em;
         margin: 0;
         padding: 0;
+
+        @media (min-width: 426px) {
+            font-size: 1.5em;
+        }
         
     }
 
@@ -42,6 +51,14 @@ body {
 .img {
     display:flex;
     justify-content: center;
+    width:90vw;
+
+    @media (min-width: 426px) {
+        display:flex;
+        justify-content: center;
+        width:70vw;
+    }
+
 }
 
 
@@ -49,13 +66,17 @@ body {
 h1 {
     font-weight: lighter;
     font-size: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     text-align: left;
 }
 
 h2 {
     font-weight: lighter;
-    font-size: 1.8em;
+    font-size: 1.3em;
+
+    @media (min-width: 426px) {
+        font-size: 1.8em;
+    }
 }
 
 
