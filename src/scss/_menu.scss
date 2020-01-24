@@ -4,6 +4,10 @@ h1 {
     font-weight: lighter;
 }
 
+.menutitle {
+    justify-content: left;
+}
+
 h2 {
     text-transform: uppercase;
     font-weight: lighter;
@@ -46,3 +50,61 @@ p {
         }
     }
 }
+
+// @media screen and (min-width: 700px) {
+
+//     h1 {
+//         text-transform: uppercase;
+//         font-weight: lighter;
+//     }
+//     h2 {
+//         text-transform: uppercase;
+//         font-weight: lighter;
+//         font-size: 1.8em;
+//     }
+//     p {
+//         font-weight: lighter;
+//     }
+//       .menucontainer {
+//         display: flex;
+//         flex-flow: row wrap;
+//         align-content: center;
+//         justify-content: center;
+//         margin: 0 auto;
+//         max-width: 80vw;
+//         //   max-height: 100vh;
+//         h1:nth-child(n + 2) {
+//           padding-top: 2em;
+//           padding-bottom: 0;
+//         }
+//         h2 {
+//           padding-top: 2em;
+//         }
+//         .menucategory {
+//           display: flex;
+//           flex-flow: column wrap;
+//           width: 30vw;
+//           margin: 2em;
+//           h2 {
+//             padding-top: 1.5em;
+//           }
+//           .firsth2 {
+//             padding-top: 0;
+//           }
+//           .menuitem {
+//             //   width: 30%;
+//             display: flex;
+//             flex-direction: row;
+//             justify-content: space-between;
+//           }
+//         }
+//       }
+//       .menu__image {
+//         width: 80vw;
+//         margin: 0 auto;
+//         margin-bottom: -1em;
+//         @media (min-width: 767px) {
+//           width: 70vw;
+//         }
+//       }
+// }
