@@ -1,0 +1,32 @@
+
+h1 {
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.8em;
+}
+
+p {
+    font-weight: lighter;
+}
+
+.menucontainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 2em;
+    .menucategory {
+        display: flex;
+        flex-direction: column;
+        .menuitem {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}
