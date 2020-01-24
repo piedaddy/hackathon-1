@@ -54,10 +54,7 @@ header {
                         padding: 0.9rem;
                     }
                 }
-                a:nth-child(1) {
-                    color: black;
-                }
-                a:active {
+                .active {
                     color: black;
                 }
             }
