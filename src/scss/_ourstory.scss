@@ -20,21 +20,16 @@
         width:70vw;
             }
 
-
-
     img {
         width: 70vw;
         padding-top: 2em;
         padding-bottom: 1em;
-
-
     }
 
     p {
         font-size: 1.1em;
         margin: 0;
         padding: 0;
-
         @media (min-width: 426px) {
             font-size: 1.5em;
         }
@@ -52,16 +47,12 @@
     display:flex;
     justify-content: center;
     width:90vw;
-
     @media (min-width: 426px) {
         display:flex;
         justify-content: center;
         width:70vw;
     }
-
 }
-
-
 
 h1 {
     font-weight: lighter;
@@ -78,9 +69,3 @@ h2 {
         font-size: 1.8em;
     }
 }
-
-
-
-
-
-    
