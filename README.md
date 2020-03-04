@@ -14,4 +14,8 @@ Mobile-first approach.
 
 — Gulp for task running (compiling SCSS, structuring, building for production, and watching);
 
-- Yarn as a package manager.
+— Yarn as a package manager.
+
+ø Instructions:
+
+— Please run <i>gulp watch</i> to properly view the website.
