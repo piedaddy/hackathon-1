@@ -16,3 +16,6 @@ node_modules/
  
 # Project build
 dist
+
+# Other files
+materials/
